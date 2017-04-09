@@ -387,6 +387,8 @@ Some interesting columns
 
 * exclude_from_nav: If True the object won't appear in sitemap, navigation tree
 
+* mime_type: Since Plone 5.1: Mime type information for file aor image items e.g.: text/plain,`mage/jpeg`, `application/pdf` ...
+
 Custom sorting by title
 ^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -426,7 +428,7 @@ Related ``configure.zcml``
 
 
 Full-text searching
---------------------
+-------------------
 
 Plone provides special index called ``SearchableText`` which is used on the site full-text search.
 Your content types can override ``SearchableText`` index with custom method to populate this index
